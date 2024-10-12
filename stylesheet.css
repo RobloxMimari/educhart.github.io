@@ -26,7 +26,7 @@
   }
 
 
-  .main-title, .standart-paragraph, .sub-title{
+  .main-title, .standart-paragraph, .sub-title, .def-button{
     text-align: center;
     font-family: 'Inter Tight', sans-serif;
   }
@@ -45,4 +45,24 @@
     font-weight: 400;   
     font-size: 22px;
     line-height: 1.25;
+}
+
+.def-button{
+  background-color: black;
+  color: blanchedalmond;
+  border-radius: 20px;
+  border: 1px solid black;
+  padding: 12px 20px;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  text-align:center;
+  margin-top: 20px;
+  
+}
+
+.def-button:hover{
+  background-color:blanchedalmond;
+  color: black;
+  text-align: center;
 }
